@@ -1,0 +1,501 @@
+Index,Chinese,Pinyin,English,Level
+0,爱,ài,love,1
+1,爱好,ài hào,hobby,1
+2,八,bā,eight,1
+3,爸爸｜爸,bàba ｜ bà,dad,1
+4,吧,ba,(interjection particle),1
+5,白（形）,bái,white,1
+6,白天,bái tiān,day,1
+7,百,bǎi,hundred,1
+8,班,bān,class,1
+9,半,bàn,half,1
+10,半年,bàn nián,half a year,1
+11,半天,bàn tiān,half day,1
+12,帮,bāng,help,1
+13,帮忙,bāng máng,help,1
+14,包,bāo,package,1
+15,包子,bāo zi,bun,1
+16,杯,bēi,cup,1
+17,杯子,bēi zi,cup,1
+18,北,běi,north,1
+19,北边,běi biān,North side,1
+20,北京,běi jīng,Beijing,1
+21,本（量）,běn,(measure word for books or volumes),1
+22,本子,běn zi,book,1
+23,比,bǐ,particle used for comparison,1
+24,别（副）,bié,Don't,1
+25,别的,bié de,other,1
+26,别人,bié·rén,other people,1
+27,病,bìng,disease,1
+28,病人,bìng rén,patient,1
+29,不大,bú dà,not big,1
+30,不对,bú duì,wrong,1
+31,不客气,bú kè qì,You're welcome,1
+32,不用,bú yòng,No need to,1
+33,不,bù,No,1
+34,菜,cài,dish,1
+35,茶,chá,tea,1
+36,差,chà,differ from; bad; short of,1
+37,常,cháng,often,1
+38,常常,cháng cháng,often,1
+39,唱,chàng,sing,1
+40,唱歌,chàng gē,sing,1
+41,车,chē,car,1
+42,车票,chē piào,ticket,1
+43,车上,chē shàng,in the car,1
+44,车站,chē zhàn,station,1
+45,吃,chī,eat,1
+46,吃饭,chī fàn,have meal,1
+47,出,chū,out,1
+48,出来,chū lái,come,1
+49,出去,chū qù,go out,1
+50,穿,chuān,wear,1
+51,床,chuáng,bed,1
+52,次（量）,cì,"(measure word for times, frequency)",1
+53,从,cóng,from,1
+54,错,cuò,wrong,1
+55,打（动）,dǎ,"hit, take",1
+56,打车,dǎ chē,take a taxi,1
+57,打电话,dǎ diàn huà,make a phonecall,1
+58,打开,dǎ kāi,turn on,1
+59,打球,dǎ qiú,play ball,1
+60,大,dà,"large, big",1
+61,大学,dà xué,university,1
+62,大学生,dà xué shēng,university student,1
+63,到,dào,reach,1
+64,得到,dé dào,get,1
+65,地,de,auxiliary word,1
+66,的,de,(aux.),1
+67,等（动）,děng,wait,1
+68,地,dì,ground,1
+69,地点,dìdiǎn,location,1
+70,地方,dìfang,local,1
+71,地上,dì shàng,on the ground,1
+72,地图,dìtú,Map,1
+73,弟弟｜弟,dì di ｜ dì,younger brother,1
+74,第（第二）,dì （ dì èr ）,auxiliary word for ordinal numbers  (second ),1
+75,点,diǎn,spot,1
+76,电,diàn,electricity,1
+77,电话,diàn huà,phone,1
+78,电脑,diànnǎo,Computer,1
+79,电视,diànshì,television,1
+80,电视机,diàn shì jī,television,1
+81,电影,diànyǐng,Film,1
+82,电影院,diàn yǐng  yuàn,cinema; movie theater,1
+83,东,dōng,east,1
+84,东边,dōng biān,east side,1
+85,东西,dōngxi,thing,1
+86,动,dòng,move,1
+87,动作,dòngzuò,action,1
+88,都,dōu,all,1
+89,读,dú,read,1
+90,读书,dú shū,reading; study,1
+91,对（形）,duì,right,1
+92,对不起,duìbuqǐ,I'm sorry.,1
+93,多（形、代）,duō,many; much; more,1
+94,多少,duōshao,how much,1
+95,饿,è,hungry,1
+96,儿子,érzi,Son,1
+97,二,èr,Two,1
+98,饭,fàn,rice; meal,1
+99,饭店,fàndiàn,restaurant,1
+100,房间,fángjiān,Room,1
+101,房子,fáng zi,house; building,1
+102,放,fàng,discharge,1
+103,放假,fàng jià,holiday; have a holiday,1
+104,放学,fàng xué,off school,1
+105,飞,fēi,fly,1
+106,飞机,fēijī,aircraft,1
+107,非常,fēicháng,very,1
+108,分（名、量）,fēn,minute; point; part; (measure word),1
+109,风,fēng,wind,1
+110,干,gān,dry,1
+111,干净,gānjìng,clean,1
+112,干,gàn,do,1
+113,干什么,gàn shén,me What to do,1
+114,高,gāo,high,1
+115,高兴,gāoxìng,happy,1
+116,告诉,gàosu,tell,1
+117,哥哥｜哥,gē ge ｜ gē,elder brother,1
+118,歌,gē,song,1
+119,个,gè,individual,1
+120,给,gěi,give,1
+121,跟,gēn,with,1
+122,工人,gōngrén,Worker,1
+123,工作,gōngzuò,work,1
+124,关（动）,guān,shut; close; turn off,1
+125,关上,guān shàng,close;shut to; turn off,1
+126,贵,guì,noble,1
+127,国,guó,country; state; nation,1
+128,国家,guójiā,Country,1
+129,国外,guó wài,foreign; oversea; abroad,1
+130,过,guò,pass,1
+131,还,hái,also; still; yet,1
+132,还是,háishi,still,1
+133,还有,hái yǒu,also; in addition; besides,1
+134,孩子,háizi,Children,1
+135,汉语,hànyǔ,Chinese,1
+136,汉字,hàn zì,Chinese character,1
+137,好（形）,hǎo,good,1
+138,好吃,hǎochī,Yummy,1
+139,好看,hǎo kàn,good looking,1
+140,好听,hǎo tīng,pleasant to hear,1
+141,好玩儿,hǎo wánr,fun; interesting,1
+142,号,hào,Number/date,1
+143,喝,hē,drink,1
+144,和,hé,and,1
+145,很,hěn,very,1
+146,后,hòu,back; behind; after; later,1
+147,后边,hòu biān,behind; back,1
+148,后天,hòu tiān,day after tomorrow,1
+149,花（名）,huā,flower,1
+150,话,huà,word; words,1
+151,坏,huài,bad,1
+152,还,huán,return; pay back,1
+153,回（动）,huí,go back; return,1
+154,回答,huídá,Answer,1
+155,回到,huí dào,back to,1
+156,回家,huí jiā,go home; return home,1
+157,回来,huí lái,come back; return,1
+158,回去,huí qù,go back,1
+159,会（动）,huì,can; be able to,1
+160,火车,huǒ chē,train,1
+161,机场,jīchǎng,Airport,1
+162,机票,jī piào,air ticket,1
+163,鸡蛋,jīdàn,Egg,1
+164,几,jǐ,several,1
+165,记,jì,remember,1
+166,记得,jìdé,remember,1
+167,记住,jì zhù,remember; keep in mind,1
+168,家,jiā,home,1
+169,家里,jiā lǐ,In the home,1
+170,家人,jiā rén,family,1
+171,间,jiān,between; measure word for rooms,1
+172,见,jiàn,see; meet,1
+173,见面,jiànmiàn,meet,1
+174,教,jiāo,teach,1
+175,叫（动）,jiào,call; be called,1
+176,教学楼,jiào xué lóu,teaching building,1
+177,姐姐｜姐,jiě jie ｜ jiě,elder sister,1
+178,介绍,jièshào,introduce,1
+179,今年,jīn nián,this year,1
+180,今天,jīntiān,Today,1
+181,进,jìn,enter,1
+182,进来,jìn lái,come in,1
+183,进去,jìn qù,go in,1
+184,九,jiǔ,Nine,1
+185,就,jiù,as soon as; right away; then,1
+186,觉得,juéde,Think,1
+187,开,kāi,open,1
+188,开车,kāi chē,drive; drive a car,1
+189,开会,kāi huì,have a meeting,1
+190,开玩笑,kāiwánxiào,Make fun of,1
+191,看,kàn,see,1
+192,看病,kàn bìng,see a doctor,1
+193,看到,kàn dào,see,1
+194,看见,kànjiàn,seeing,1
+195,考,kǎo,test; examine,1
+196,考试,kǎoshì,Examination,1
+197,渴,kě,thirsty,1
+198,课,kè,course,1
+199,课本,kè běn,textbook,1
+200,课文,kè wén,text,1
+201,口,kǒu,mouth,1
+202,块,kuài,block,1
+203,快,kuài,fast,1
+204,来,lái,come,1
+205,来到,lái dào,come; arrive,1
+206,老（形）,lǎo,old; aged,1
+207,老人,lǎo rén,old people; the aged,1
+208,老师,lǎoshī,Teacher,1
+209,了,le,past tense marker,1
+210,累,lèi,tired,1
+211,冷,lěng,cold,1
+212,里,lǐ,in,1
+213,里边,lǐ biān,inside,1
+214,两（数）,liǎng,two,1
+215,零｜〇,líng ｜ líng,zero,1
+216,六,liù,Six,1
+217,楼,lóu,floor,1
+218,楼上,lóu shàng,upstairs,1
+219,楼下,lóu xià,downstairs,1
+220,路,lù,road,1
+221,路口,lù kǒu,intersection; crossing,1
+222,路上,lù shàng,on the road,1
+223,妈妈｜妈,mā ma ｜  mā,mom; mother,1
+224,马路,mǎ lù,road; street,1
+225,马上,mǎshàng,Right off,1
+226,吗,ma,auxiliary word,1
+227,买,mǎi,buy,1
+228,慢,màn,slow,1
+229,忙,máng,busy,1
+230,毛（量）,máo,a fractional unit of money in China  (measure word),1
+231,没,méi,no,1
+232,没关系,méiguānxi,No problem,1
+233,没什么,méi shén,me It's nothing,1
+234,没事儿,méi shìr,It's okay,1
+235,没有,méi yǒu,have not; no,1
+236,妹妹｜妹,mèi,mei ｜ younger sister,1
+237,门,mén,door,1
+238,门口,mén kǒu,doorway,1
+239,门票,mén piào,tickets,1
+240,们（朋友们）,men （ péng  yǒu men ）,plural marker for pronouns and a few  animate nouns (friends),1
+241,米饭,mǐfàn,Steamed Rice,1
+242,面包,miànbāo,Bread,1
+243,面条儿,miàn tiáor,noodles,1
+244,名字,míngzi,Name,1
+245,明白,míngbai,clear,1
+246,明年,míng nián,next year,1
+247,明天,míngtiān,Tomorrow,1
+248,拿,ná,take,1
+249,哪,nǎ,which,1
+250,哪里,nǎ lǐ,where,1
+251,哪儿,nǎr,where,1
+252,哪些,nǎ xiē,which,1
+253,那（代）,nà,that,1
+254,那边,nà biān,there,1
+255,那里,nà lǐ,there,1
+256,那儿,nàr,there,1
+257,那些,nà xiē,those,1
+258,奶,nǎi,milk,1
+259,奶奶,nǎinai,grandma,1
+260,男,nán,Man,1
+261,男孩儿,nán háir,boy,1
+262,男朋友,nán péng yǒu,boyfriend,1
+263,男人,nán ren,man,1
+264,男生,nán shēng,boy,1
+265,南,nán,south,1
+266,南边,nán biān,south; south side,1
+267,难,nán,"hard, difficult",1
+268,呢,ne,auxiliary word,1
+269,能,néng,can,1
+270,你,nǐ,you,1
+271,你们,nǐ men,you,1
+272,年,nián,year,1
+273,您,nín,you,1
+274,牛奶,niúnǎi,milk,1
+275,女,nǚ,woman,1
+276,女儿,nǚ'ér,daughter,1
+277,女孩儿,nǚ háir,girl,1
+278,女朋友,nǚ péng yǒu,girlfriend,1
+279,女人,nǚ ren,woman,1
+280,女生,nǚ shēng,girl,1
+281,旁边,pángbiān,Side,1
+282,跑,pǎo,run,1
+283,朋友,péngyou,Friend,1
+284,票,piào,ticket,1
+285,七,qī,Seven,1
+286,起,qǐ,get up; start; rise,1
+287,起床,qǐchuáng,Get up,1
+288,起来,qǐlái,get up,1
+289,汽车,qì chē,car,1
+290,前,qián,front,1
+291,前边,qián biān,in front,1
+292,前天,qián tiān,the day before yesterday,1
+293,钱,qián,money,1
+294,钱包,qián bāo,wallet,1
+295,请,qǐng,please,1
+296,请假,qǐngjià,ask for leave,1
+297,请进,qǐng jìn,please come in,1
+298,请问,qǐng wèn,excuse me,1
+299,请坐,qǐng zuò,please have a seat,1
+300,球,qiú,ball,1
+301,去,qù,go,1
+302,去年,qùnián,Last year,1
+303,热,rè,heat,1
+304,人,rén,people,1
+305,认识,rènshi,know,1
+306,认真,rènzhēn,earnest,1
+307,日,rì,date,1
+308,日期,rìqī,Date,1
+309,肉,ròu,meat,1
+310,三,sān,Three,1
+311,山,shān,mountain,1
+312,商场,shāng chǎng,mall; shopping mall,1
+313,商店,shāngdiàn,Shop,1
+314,上,shàng,upper,1
+315,上班,shàngbān,go to work,1
+316,上边,shàng biān,above; on,1
+317,上车,shàng chē,get on,1
+318,上次,shàng cì,last time,1
+319,上课,shàng kè,attend class; have a class,1
+320,上网,shàngwǎng,Surf the Internet,1
+321,上午,shàngwǔ,morning,1
+322,上学,shàng xué,go to school,1
+323,少,shǎo,less,1
+324,谁,shéi,who,1
+325,身上,shēn shàng,body; on one's body,1
+326,身体,shēntǐ,body,1
+327,什么,shénme,What,1
+328,生病,shēngbìng,Fall ill,1
+329,生气,shēngqì,get angry,1
+330,生日,shēngrì,Birthday,1
+331,十,shí,Ten,1
+332,时候,shíhou,time,1
+333,时间,shíjiān,time,1
+334,事,shì,thing,1
+335,试,shì,try,1
+336,是,shì,yes,1
+337,是不是,shì bú shì,isn't it?,1
+338,手,shǒu,hand,1
+339,手机,shǒujī,Mobile phone,1
+340,书,shū,book,1
+341,书包,shū bāo,school bag,1
+342,书店,shū diàn,bookstore,1
+343,树,shù,tree,1
+344,水,shuǐ,water,1
+345,水果,shuǐguǒ,Fruits,1
+346,睡,shuì,sleep,1
+347,睡觉,shuìjiào,sleep,1
+348,说,shuō,speak,1
+349,说话,shuōhuà,talk,1
+350,四,sì,Four,1
+351,送,sòng,give,1
+352,岁,suì,"year, age",1
+353,他,tā,he,1
+354,他们,tā men,they,1
+355,她,tā,she,1
+356,她们,tā men,they,1
+357,太,tài,too,1
+358,天,tiān,day,1
+359,天气,tiānqì,weather,1
+360,听,tīng,hear,1
+361,听到,tīng dào,hear,1
+362,听见,tīng jiàn,hear,1
+363,听写,tīng xiě,dictation; dictate,1
+364,同学,tóngxué,Classmate,1
+365,图书馆,túshūguǎn,Library,1
+366,外,wài,"abroad, outside",1
+367,外边,wài biān,outside,1
+368,外国,wài guó,foreign country,1
+369,外语,wài yǔ,foreign language,1
+370,玩儿,wánr,play,1
+371,晚,wǎn,late,1
+372,晚饭,wǎn fàn,dinner,1
+373,晚上,wǎnshang,Night,1
+374,网上,wǎng shàng,online,1
+375,网友,wǎng yǒu,net friend,1
+376,忘,wàng,forget,1
+377,忘记,wàngjì,forget,1
+378,问,wèn,ask,1
+379,我,wǒ,I,1
+380,我们,wǒmen,We,1
+381,五,wǔ,Five,1
+382,午饭,wǔ fàn,lunch,1
+383,西,xī,west,1
+384,西边,xī biān,west; west side,1
+385,洗,xǐ,wash,1
+386,洗手间,xǐshǒujiān,Restroom,1
+387,喜欢,xǐhuan,like,1
+388,下（名、动）,xià,below; under; next; go down; get off,1
+389,下班,xià bān,get off work,1
+390,下边,xià biān,below; under,1
+391,下车,xià chē,get off,1
+392,下次,xià cì,next time,1
+393,下课,xià kè,finish class,1
+394,下午,xiàwǔ,Afternoon,1
+395,下雨,xiàyǔ,rain,1
+396,先,xiān,before,1
+397,先生,xiānsheng,Sir,1
+398,现在,xiànzài,Now,1
+399,想,xiǎng,think,1
+400,小,xiǎo,Small,1
+401,小孩儿,xiǎo háir,child; kid,1
+402,小姐,xiǎojiě,Miss,1
+403,小朋友,xiǎo péng yǒu,child; kid,1
+404,小时,xiǎoshí,hour,1
+405,小学,xiǎo xué,primary school; elementary schoo,1
+406,小学生,xiǎo xué  shēng,elementary school student,1
+407,笑,xiào,laugh,1
+408,写,xiě,write,1
+409,谢谢,xièxie,Thank you,1
+410,新,xīn,new,1
+411,新年,xīn nián,New Year,1
+412,星期,xīngqī,week,1
+413,星期日,xīng qī rì,Sunday,1
+414,星期天,xīng qī tiān,Sunday,1
+415,行,xíng,That's ok,1
+416,休息,xiūxi,Rest,1
+417,学,xué,learn; study,1
+418,学生,xuésheng,Student,1
+419,学习,xuéxí,Study,1
+420,学校,xuéxiào,School,1
+421,学院,xué yuàn,college; academy,1
+422,要（动）,yào,want,1
+423,爷爷,yéye,grandpa,1
+424,也,yě,also,1
+425,页,yè,page,1
+426,一,yī,One,1
+427,衣服,yīfu,clothes,1
+428,医生,yīshēng,Doctor,1
+429,医院,yīyuàn,Hospital,1
+430,一半,yí bàn,half,1
+431,一会儿,yíhuìr,A little while,1
+432,一块儿,yí kuàir,together,1
+433,一下儿,yí xiàr,a little bit,1
+434,一样,yíyàng,equally,1
+435,一边,yìbiān,One side,1
+436,一点儿,yīdiǎnr,a little bit,1
+437,一起,yìqǐ,together,1
+438,一些,yì xiē,some,1
+439,用,yòng,use,1
+440,有,yǒu,have,1
+441,有的,yǒu de,some,1
+442,有名,yǒumíng,Famous,1
+443,有时候｜有时,yǒu shí  hòu ｜ yǒu,s hí sometimes,1
+444,有（一）些,yǒu （ yì ）  xiē,some,1
+445,有用,yǒu yòng,useful,1
+446,右,yòu,right,1
+447,右边,yòubian,Right,1
+448,雨,yǔ,rain,1
+449,元,yuán,element; Yuan,1
+450,远,yuǎn,far,1
+451,月,yuè,month,1
+452,再,zài,again,1
+453,再见,zàijiàn,Bye,1
+454,在,zài,stay; in process of,1
+455,在家,zài jiā,at home,1
+456,早,zǎo,early,1
+457,早饭,zǎo fàn,breakfast,1
+458,早上,zǎoshang,Morning,1
+459,怎么,zěnme,How,1
+460,站（名）,zhàn,station,1
+461,找,zhǎo,look for,1
+462,找到,zhǎo dào,find,1
+463,这,zhè,Here (here),1
+464,这边,zhè biān,here,1
+465,这里,zhè lǐ,here,1
+466,这儿,zhèr,here,1
+467,这些,zhè xiē,these,1
+468,着,zhe,in process of,1
+469,真,zhēn,really,1
+470,真的,zhēn de,really,1
+471,正（副）,zhèng,just; exactly,1
+472,正在,zhèngzài,in process of,1
+473,知道,zhīdào,know,1
+474,知识,zhīshi,knowledge,1
+475,中,zhōng,middle; in,1
+476,中国,zhōngguó,China,1
+477,中间,zhōngjiān,Middle,1
+478,中文,zhōngwén,Chinese,1
+479,中午,zhōngwǔ,Noon,1
+480,中学,zhōng xué,middle school,1
+481,中学生,zhōng xué  shēng,middle School student,1
+482,重,zhòng,heavy,1
+483,重要,zhòngyào,important,1
+484,住,zhù,live,1
+485,准备,zhǔnbèi,Get ready,1
+486,桌子,zhuōzi,Table,1
+487,字,zì,"word, character",1
+488,子（桌子）,zi （ zhuō zi  ）,noun suffix (table),1
+489,走,zǒu,"go, walk",1
+490,走路,zǒu lù,walk,1
+491,最,zuì,most,1
+492,最好,zuìhǎo,Best,1
+493,最后,zuìhòu,Last,1
+494,昨天,zuótiān,Yesterday,1
+495,左,zuǒ,left,1
+496,左边,zuǒbian,left,1
+497,坐,zuò,sit,1
+498,坐下,zuò xià,sit down,1
+499,做,zuò,do,1
