@@ -160,83 +160,80 @@ async function displayFootprints() {
 }
 
 /**
- * Main function to handle footprint click
+ * Generate random number between min and max
  */
-async function addFootprint() {
+function getRandomNumber(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+/**
+ * Add a cat paw emoji to the page at random location and size
+ */
+function addCatPaw() {
+    const container = document.getElementById('footprints');
+    
+    if (!container) {
+        console.error('Container element not found');
+        return;
+    }
+    
+    // Create paw element
+    const paw = document.createElement('span');
+    paw.textContent = '🐾';
+    
+    // Random size between 20px and 80px
+    const size = getRandomNumber(20, 80);
+    paw.style.fontSize = size + 'px';
+    
+    // Random position within container
+    const containerRect = container.getBoundingClientRect();
+    const randomX = getRandomNumber(0, containerRect.width - size);
+    const randomY = getRandomNumber(0, containerRect.height - size);
+    
+    paw.style.position = 'absolute';
+    paw.style.left = randomX + 'px';
+    paw.style.top = randomY + 'px';
+    paw.style.opacity = '0.8';
+    paw.style.cursor = 'pointer';
+    
+    // Make container position relative if it isn't already
+    if (container.style.position === '') {
+        container.style.position = 'relative';
+    }
+    
+    // Add click to remove paw
+    paw.addEventListener('click', (e) => {
+        e.stopPropagation();
+        paw.remove();
+    });
+    
+    container.appendChild(paw);
+}
+
+/**
+ * Main function to handle button click
+ */
+function addPaw() {
     const button = document.getElementById('footclick');
     const originalHTML = button.innerHTML;
     
-    try {
-        // Disable button during processing
-        button.disabled = true;
-        button.style.opacity = '0.6';
-        button.innerHTML = '⏳';
-        
-        // Get IP address
-        const ip = await getVisitorIP();
-        if (!ip) {
-            button.innerHTML = originalHTML;
-            button.disabled = false;
-            button.style.opacity = '1';
-            alert('Unable to determine your IP address. Please try again.');
-            return;
-        }
-        
-        // Check rate limit
-        if (hasClickedToday(ip)) {
-            button.innerHTML = '✓';
-            setTimeout(() => {
-                button.innerHTML = originalHTML;
-                button.disabled = false;
-                button.style.opacity = '1';
-            }, 2000);
-            alert('You have already left a footprint today! Come back tomorrow.');
-            return;
-        }
-        
-        // Get location
-        const location = await getLocationByIP(ip);
-        const datetime = new Date().toISOString();
-        
-        // Save to GitHub
-        const success = await saveFootprintToGitHub(ip, location.city, location.country, datetime);
-        
-        if (!success) {
-            button.innerHTML = originalHTML;
-            button.disabled = false;
-            button.style.opacity = '1';
-            alert('Failed to save footprint. Please check the console for details.');
-            return;
-        }
-        
-        // Mark as clicked today
-        markClickedToday(ip);
-        
-        // Show success
-        button.innerHTML = '✓';
-        setTimeout(() => {
-            button.innerHTML = originalHTML;
-            button.disabled = false;
-            button.style.opacity = '1';
-        }, 2000);
-        
-        // Update display
-        displayFootprints();
-        
-    } catch (error) {
-        console.error('Error adding footprint:', error);
+    button.disabled = true;
+    button.style.opacity = '0.6';
+    button.innerHTML = '✨';
+    
+    addCatPaw();
+    
+    setTimeout(() => {
         button.innerHTML = originalHTML;
         button.disabled = false;
         button.style.opacity = '1';
-        alert('An error occurred. Please try again.');
-    }
+    }, 300);
 }
 
-// Load and display footprints on page load
+// Load on page load
 document.addEventListener('DOMContentLoaded', () => {
     const button = document.getElementById('footclick');
     if (button) {
-        button.addEventListener('click', addFootprint);
+        button.addEventListener('click', addPaw);
     }
-    displayFootprints();
 });
