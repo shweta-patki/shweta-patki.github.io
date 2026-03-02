@@ -86,17 +86,12 @@ async function getCSVContent() {
  */
 async function saveFootprintToGitHub(ip, city, country, datetime) {
     try {
-        // Get the PAT from the page (user will need to provide via a prompt or input)
-        const token = sessionStorage.getItem('github_token');
+        // Use GitHub token from environment (set via GitHub Actions or build process)
+        const token = process.env.GITHUB_TOKEN;
         
         if (!token) {
-            // Prompt user for token if not already stored
-            const userToken = prompt('GitHub Personal Access Token (read/write repo):');
-            if (!userToken) {
-                console.error('Token required to save footprint');
-                return false;
-            }
-            sessionStorage.setItem('github_token', userToken);
+            console.error('GitHub token not available');
+            return false;
         }
         
         // Trigger workflow dispatch
@@ -105,7 +100,7 @@ async function saveFootprintToGitHub(ip, city, country, datetime) {
             {
                 method: 'POST',
                 headers: {
-                    'Authorization': `token ${token || sessionStorage.getItem('github_token')}`,
+                    'Authorization': `token ${token}`,
                     'Content-Type': 'application/json',
                     'Accept': 'application/vnd.github.v3+json'
                 },
@@ -123,7 +118,6 @@ async function saveFootprintToGitHub(ip, city, country, datetime) {
         
         if (!workflowResponse.ok) {
             console.error('Workflow dispatch failed:', workflowResponse.status, workflowResponse.statusText);
-            sessionStorage.removeItem('github_token'); // Clear invalid token
             return false;
         }
         
