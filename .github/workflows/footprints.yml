@@ -1,0 +1,59 @@
+name: Footprint Management
+
+on:
+  workflow_dispatch:
+    inputs:
+      ip:
+        description: 'Visitor IP'
+        required: true
+      city:
+        description: 'City'
+        required: true
+      country:
+        description: 'Country'
+        required: true
+      datetime:
+        description: 'Datetime'
+        required: true
+
+jobs:
+  add-footprint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Parse and add footprint
+        env:
+          GITHUB_TOKEN: ${{ secrets.FOOTPRINT_TOKEN }}
+        run: |
+          IP="${{ github.event.inputs.ip }}"
+          CITY="${{ github.event.inputs.city }}"
+          COUNTRY="${{ github.event.inputs.country }}"
+          DATETIME="${{ github.event.inputs.datetime }}"
+          
+          # Check if CSV exists, if not create it
+          if [ ! -f footprints.csv ]; then
+            echo "id,datetime,city,country,ip" > footprints.csv
+          fi
+          
+          # Get next ID
+          LAST_ID=$(tail -1 footprints.csv | cut -d',' -f1)
+          if [ -z "$LAST_ID" ] || [ "$LAST_ID" = "id" ]; then
+            NEXT_ID=1
+          else
+            NEXT_ID=$((LAST_ID + 1))
+          fi
+          
+          # Append new footprint
+          echo "$NEXT_ID,$DATETIME,$CITY,$COUNTRY,$IP" >> footprints.csv
+          
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add footprints.csv
+          git commit -m "Add footprint from ${{ github.event.inputs.city }}, ${{ github.event.inputs.country }}"
+          git push
+
