@@ -659,7 +659,7 @@
 
   document.addEventListener('mousemove', e => {
     const now = Date.now();
-    if (now - lastPaw > 160) { lastPaw = now; spawnPaw(e.clientX, e.clientY); }
+    if (now - lastPaw > 60) { lastPaw = now; spawnPaw(e.clientX, e.clientY); }
   }, { passive: true });
 
   // Touch: paw bursts on tap
