@@ -68,15 +68,13 @@
     }
 
     .paw {
-      position: fixed;
-      pointer-events: none;
-      z-index: 9998;
-      font-size: 20px;
-      opacity: 0;
-      transform: translate(-50%, -50%) rotate(var(--rot));
-      animation: pawfade 1.4s ease forwards;
-      filter: drop-shadow(0 1px 3px rgba(201,79,56,0.25));
-      /* aria-hidden set in JS */
+    position: fixed;
+    pointer-events: none;
+    z-index: 9998;
+    font-size: 20px;
+    opacity: 0;
+    filter: drop-shadow(0 1px 3px rgba(201,79,56,0.25));
+    transition: opacity 1s ease;
     }
     @keyframes pawfade {
       0%   { opacity: 0;    transform: translate(-50%,-50%) rotate(var(--rot)) scale(0.5); }
@@ -648,7 +646,10 @@
     el.setAttribute('aria-hidden', 'true');
     el.textContent = PAW_EMOJI;
     const rot = (Math.random() - 0.5) * 40;
-    el.style.setProperty('--rot', rot + 'deg');
+    el.style.transform = `translate(-50%, -50%) rotate(${rot}deg)`;
+    el.style.animation = 'none';
+    el.style.opacity = '0.85';
+    setTimeout(() => { el.style.transition = 'opacity 1s ease'; el.style.opacity = '0'; }, 200);
     el.style.left = x + 'px';
     el.style.top  = y + 'px';
     el.style.fontSize = (15 + Math.random() * 8) + 'px';
