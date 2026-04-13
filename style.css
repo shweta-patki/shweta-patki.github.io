@@ -114,7 +114,7 @@ nav {
 .hero {
     min-height: 100vh;
     display: flex; align-items: center; justify-content: center;
-    padding: 6rem 3rem 3rem;
+    padding: 0rem 3rem 3rem;
     position: relative; overflow: hidden;
 }
 .hero-bg-circle {
